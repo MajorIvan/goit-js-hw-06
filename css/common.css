@@ -22,30 +22,3 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
-
-.gallery {
-  display: grid;
-  grid-gap: 20px;
-}
-  
-.gallery__item {
-  list-style: none;
-}
-  
-.gallery__image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-#validation-input {
-  border: 3px solid #bdbdbd;
-}
-
-#validation-input.valid {
-  border-color: #4caf50;
-}
-
-#validation-input.invalid {
-  border-color: #f44336;
-}
