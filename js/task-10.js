@@ -11,6 +11,7 @@ const createBtn = document.querySelector('button[data-create]');
 createBtn.addEventListener('click', createBoxes);
 
 function createBoxes() {
+  boxContent.innerHTML = '';
   const amount = inputField.value;
   const boxes = [];
   let size = 30;
