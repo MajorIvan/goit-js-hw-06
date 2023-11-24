@@ -13,8 +13,8 @@ function handleSubmit(event) {
     };
 
     console.log({
-        Email: email.value,
-        Password: password.value
+        email: email.value,
+        password: password.value
     });
 
     form.reset();
